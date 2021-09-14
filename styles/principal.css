@@ -1,5 +1,5 @@
 header{
-position: absolute;
+display: flexbox;
 width: 1439px;
 height: 120px;
 left: 1px;
