@@ -4,11 +4,15 @@ width: 100%;
 height: 120px;
 left: 1px;
 top: 0px;
-background: linear-gradient(90deg, #00597C -5.56%, #00A2E0 40.76%);
-
+background: linear-gradient(90deg, #E9A426 -5.56%, #F9B50B 40.76%);
 }
-colorTexto-header{
+.colorTexto-header{
 color: white;
     
+}
+
+.seccion-catalogo{
+    background: #003087;
+
 }
 
