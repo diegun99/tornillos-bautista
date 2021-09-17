@@ -1,3 +1,7 @@
+*{
+    margin: 2px;
+}
+
 header{
 display: flex;
 width: 100%;
@@ -18,8 +22,24 @@ color: white;
     justify-content: space-between;
 }
 
+.caja-productos-clasificado{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.caja-producto-unidad{
+    justify-content: space-around;
+    border-style: solid;
+
+
+}
+
 /*catalogo */
 .caja-catalogo{
+
+
     width: 30%;
     border-style: solid;
     border-radius: 15px;
