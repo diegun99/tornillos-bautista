@@ -1,10 +1,11 @@
 header{
-display: flexbox;
+display: flex;
 width: 100%;
 height: 120px;
 left: 1px;
 top: 0px;
 background: linear-gradient(90deg, #E9A426 -5.56%, #F9B50B 40.76%);
+justify-content: space-between;
 }
 .colorTexto-header{
 color: white;
@@ -12,40 +13,7 @@ color: white;
 }
 
 /*catalogo */
-.catalogo-parte-arriba{
-    text-align: center;
-    border-style: dotted;
-    background: linear-gradient(90deg, #E9A426 -5.56%, #F9B50B 40.76%);
-    margin: 0;
-
-}
-
-
-.catalogo-parte-abajo{
-    border-style: dashed;
-    background: linear-gradient(90deg, #E9A426 -5.56%, #F9B50B 40.76%);
-    justify-content: center;
-
-}
-
-.titulo-catalogo{
-    border-style: dashed;
-    background: #003087;
-    margin: 10% 30% 0 30%;
-}
-.subtitulo-catalogo{
-    border-style: solid;
-    border-color: antiquewhite;
-    background: #E9A426;
-
-    margin: 0 30% 0 30%;
-}
-
-.seccion-catalogo{
-    border-style: dashed;
-    width: 40%;
-    background: white;
-    justify-content: end;
-
+.caja-catalogo{
+    border-style: inset;
 }
 
