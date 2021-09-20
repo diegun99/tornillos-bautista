@@ -1,6 +1,8 @@
 *{
     margin: 2px;
+
 }
+
 
 header{
 display: flex;
@@ -37,6 +39,7 @@ color: white;
 .caja-articulos{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .caja-productos-clasificado{
@@ -64,6 +67,9 @@ color: white;
     text-align: center;
     margin: 0 0 2rem 0;
     padding: 0 0 1rem 0;
+    background-color: white;
+    justify-items: center;
+    
 }
 
 .boton-catalogo{
