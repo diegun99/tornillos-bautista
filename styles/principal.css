@@ -57,18 +57,24 @@ color: white;
 }
 
 /*catalogo */
+
+.caja-carrusel{
+    justify-content: space-evenly;
+}
+.caja-carrusel-catalogo{
+    margin: 0 0 0 30px;
+}
 .caja-catalogo{
-
-
     width: 70%;
     border-style: solid;
     border-radius: 15px;
-    border-width: 1px;
+    border-width: 4px;
     text-align: center;
     margin: 0 0 2rem 0;
     padding: 0 0 1rem 0;
     background-color: white;
     justify-items: center;
+    box-shadow: 2.9px 5.8px 5.8px hsl(0deg 0% 0% / 0.41);
     
 }
 
@@ -91,8 +97,13 @@ footer{
 /*enunciado*/
 .enunciado, h3, h6{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 4rem 0 4rem 0;
+    margin: 4rem 1rem 4rem 1rem;
+    text-align: center;
     font-size: 2rem;
+    
+}
+.enunciado{
+    box-shadow: 2.9px 5.8px 5.8px hsl(0deg 0% 0% / 0.41);
 }
 
 
