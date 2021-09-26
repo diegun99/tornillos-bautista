@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class=content-fluid>
+        <h1>Logo</h1>
+        <center>
+            <h1>DIGIGENCIE LOS SIGUIENTES CAMPOS PARA GENERAR SU COTIZACION</h1>
+            </center>
+            <br/>
+            <br/>
+            <br/>
+            <br/> 
+    </header>
+    
+    <main>
+            
+            <center> <!--<este me esta centrando todo el formuario>-->
+
+
+            <form class="form-register">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <label class="form-label" for="Nombre">Nombre o razón social:</label>
+                            <input class="form-control" type="text" id="nombre" name="txtNombre" placeholder="Ingresar nombre" required></input>
+                        </div>    
+                        <div class="col-12 col-md-6">
+                            <label class="form-label" for="email">Correo electrónico:</label>
+                            <input class="form-control" type="email" id="email" name="txtCorreo" placeholder="Ingresar email "required></input>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-3">   
+                            <label class="form-label" for = "Telefono">Teléfono:</label>
+                            <input class="form-control" type="number" name="txtTelefono" min="999999" max="9999999999"></input>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <label class="form-label">Ingresar Fecha:</label>
+                            <input class="form-control" type="date" name="txtFecha"></input>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label class="form-label">Ingresar productos:</label>
+                            <select class="form-select"  name="productos">
+                                <option value="1">Tornillo Galvanizado</option>
+                                <option value="1">Tornillo Inox</option>
+                                <option value="1">Tornillo AO8</option>
+                                <option value="1">Tornillo LAMINA</option>
+                                <option value="1">Tornillo MM</option>
+                                <option value="1">Arandelas</option>
+                                <option value="1">Tuercas</option>
+                                <option value="1">HERRAMIENTAS</option>
+                            </select>
+                    <br/><br/>
+                    </div>
+                    <label >COMENTARIOS:</label>
+                    <br/><br/>
+                    <textarea name="Comentarios" rows=3 cols=50>
+                    ingrese sus comentarios
+                    </textarea>
+                    <br/><br/>
+                    
+                    <div class="row">
+                        <div class="col-12 col-md-12">
+                            <input class="btn btn-warning"type="submit" value="Generar Cotizacion">
+                            <input class="btn btn-danger"type="submit" value="Volver">
+                        </div>
+                    </div>    
+                    <br/>
+                    <br/>
+            </div>
+            </form>
+        </center>
+
+    
+
+
+    </main>
+
+</body>
+</html>
