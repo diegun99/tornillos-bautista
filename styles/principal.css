@@ -48,16 +48,24 @@ color: white;
 .caja-productos-clasificado{
     margin: 2rem 0 2rem 0;
     display: flex;
-    justify-content: space-evenly;
+
+    text-align: center;
 
 
 
 }
 
 .caja-producto-unidad{
-    justify-content: space-around;
-    border-style: solid;
+    align-content: center;
+    justify-content: space-evenly;
 
+
+}
+
+.caja-producto-unidad img{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
 
 }
 
