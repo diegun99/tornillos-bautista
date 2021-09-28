@@ -12,6 +12,11 @@ justify-content: space-between;
 font-size: 1.5rem;
 }
 
+header a{
+    display: flex;
+
+}
+
 
 .fondo-oscuro {
     filter: brightness(60%);
