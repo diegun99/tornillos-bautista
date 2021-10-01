@@ -88,8 +88,9 @@ color: white;
     background-color: white;
     justify-items: center;
     box-shadow: 2.9px 5.8px 5.8px hsl(0deg 0% 0% / 0.41);
-    
+    padding: 3% 3%;
 }
+
 
 .boton-catalogo{
     background: #E9A426;
