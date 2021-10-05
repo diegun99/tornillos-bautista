@@ -28,7 +28,7 @@ header a{
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 3vw;
     color: beige;
     text-align: center;
 }
@@ -98,6 +98,8 @@ color: white;
 
 
 footer{
+    width: 100%;
+    position: absolute;
     display: flex;
     flex: 0;
     justify-content: center;
@@ -136,6 +138,15 @@ font-size: 150%;
 .titulosPrincipales{
     background-color: rgb(233, 164, 38);
 }
+
+.customicon{
+
+    font-size: 20px;
+    text-align:center;
+    padding: 10px; 
+    color: white;
+}
+
 
 /*footer*/
 
