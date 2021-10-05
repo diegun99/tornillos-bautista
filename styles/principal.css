@@ -124,9 +124,13 @@ footer{
 
 
 h6{
-    font-size: 1rem;
+    font-size: 4vh;
     margin: 4rem 1.25rem 2.5rem 1.25rem;
 
+}
+
+h2{
+font-size: 150%;
 }
 
 .titulosPrincipales{
@@ -134,4 +138,16 @@ h6{
 }
 
 /*footer*/
+
+
+    footer {
+        display: flex;
+        flex: 0;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        color: white;
+        background-color: black
+    }
+
 
