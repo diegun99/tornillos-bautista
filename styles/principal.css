@@ -166,14 +166,54 @@ font-size: 150%;
     .opciones-herramienta-catalogo{
         text-align: center;
         width: 100%; 
+        
     }
 
 
 
     .opciones-herramienta-unidad h2 button{
-padding: 2%;
-text-align: center;
+    padding: 5% 40%;
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FFF;
+    padding: 5% 37%;
+
+
+
+
     }
+
+    .fondo-boton-herramienta{
+        background:  linear-gradient(
+            rgba(0, 0, 0, 0.6), 
+            rgba(0, 0, 0, 0.6)
+          ), url("../Imagen/catalogo/imagenHerramientas.jpg") no-repeat scroll 0 0 transparent;
+ 
+        background-size: 100%;
+
+        
+    }
+
+    .fondo-boton-tornilleria{
+        background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.6), 
+            rgba(0, 0, 0, 0.6)
+          ), url("../Imagen/catalogo/imagenTornillo.jpg") no-repeat scroll 0 0 transparent;
+        background-size: 100%;
+
+    }
+
+    .fondo-boton-otro{
+        background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.6), 
+            rgba(0, 0, 0, 0.6)
+          ), url("../Imagen/catalogo/imagenOtro.jpg") no-repeat scroll 0 0 transparent;
+        background-size: 100%;
+    }
+
 
 
 

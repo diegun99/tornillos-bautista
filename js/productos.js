@@ -51,6 +51,22 @@ const imagenesOtro = [
         titulo: 'COPA STANLEY',
         precio: "HEX. M1/2  30mm",
         descripcion: "",
+    },
+
+    {
+        src: "https://cdn1.totalcode.net/easy/product-zoom/es/tornillo-lamina-8-mm-x-3~4%22-avellanado-phillips-zincado-x12und-3.webp",
+        alt: 'Gatitos, no se puede decir más',
+        titulo: 'Otros',
+        precio: "HEX. M1/2  30mm",
+        descripcion: "",
+
+    },
+    {
+        src: "https://cdn1.totalcode.net/easy/product-zoom/es/tornillo-lamina-8-mm-x-3~4%22-avellanado-phillips-zincado-x12und-3.webp",
+        alt: 'Gatitos, no se puede decir más',
+        titulo: 'COPA STANLEY',
+        precio: "HEX. M1/2  30mm",
+        descripcion: "",
     }
 ];
 
@@ -78,7 +94,7 @@ function mostrarCatalogo(imagenes,id) {
     }
 
   }
-  
+
   $(document).ready(function() {
     mostrarCatalogo(imagenesOtro,"otro");
   });
