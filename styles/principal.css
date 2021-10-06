@@ -70,6 +70,8 @@ color: white;
 
 /*catalogo */
 
+
+
 .caja-carrusel{
     justify-content: space-evenly;
     margin-bottom: 5%;
@@ -107,6 +109,15 @@ footer{
     height: 80px;
     color: white;
     background-color: black;
+}
+
+.main-catalogo{
+    text-align: center;
+    margin: 10% 3%;
+}
+.main-catalogo h1{
+
+    margin: 10% 3%;
 }
 
 
