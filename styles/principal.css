@@ -161,4 +161,19 @@ font-size: 150%;
         background-color: black
     }
 
+    /*catalogo*/
+
+    .opciones-herramienta-catalogo{
+        text-align: center;
+        width: 100%; 
+    }
+
+
+
+    .opciones-herramienta-unidad h2 button{
+padding: 2%;
+text-align: center;
+    }
+
+
 
