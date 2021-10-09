@@ -1,39 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalogo</title>
-</head>
-<body>
-    <header class=content-fluid>
-        <a href="./index.html"><img src="Imagen/LOGO FINAL.png" alt="logo"></a>
-  
-          <nav class="navbar navbar-expand-lg navbar-dark">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item active ">
-                    <a class="nav-link" href="./mison.html">MISIÓN <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">VISIÓN</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">CATÁLOGO</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="./index_cotizacion.html">COTIZACIÓN</a>
-                    </li>
-                </ul>
-              </div>
-            </nav>
-      </header>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/footers/">
+  <link href="/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/5c12f6cddc.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="styles/principal.css">
+
+  <!--css externos-->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <title>Catalogo</title>
+</head>
+
+<body>
+
+  <header class=content-fluid>
+    <a href="./index.html"><img src="Imagen/LOGO FINAL.jpeg" alt="logo"></a>
+
+      <nav class="navbar navbar-expand-lg navbar-light navbar-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active ">
+                <a class="nav-link" href="./mison.html">MISIÓN <span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./vision.html">VISIÓN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./catalogo.html">CATÁLOGO</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./index_cotizacion.html">COTIZACIÓN</a>
+                </li>
+            </ul>
+          </div>
+        </nav>
+
+  </header>
+  <main class="main-catalogo">
+  <h1>¡Mira nuestro catálogo!</h1>
+
+
+    <div class="accordion accordion-flush opciones-herramienta-catalogo" id="accordionFlushExample">
+      <div class="accordion-item opciones-herramienta-unidad">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed fondo-boton-herramienta"  type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+           <span>HERRAMIENTA 
+           </span> 
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <div id="herramienta" class="container">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item opciones-herramienta-unidad">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed fondo-boton-tornilleria" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            TORNILLERIA
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <div id="tornilleria" class="container">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item opciones-herramienta-unidad">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed fondo-boton-otro" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            OTRO
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <div id="otro" class="container">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-md-3 item">
+        <h3>TornillosBautista</h3>
+        <ul>
+          <li><a href="./mison.html">Mision</a></li>
+          <li><a href="./vision.html">Vision</a></li>
+          <li><a href="./catalogo.html">Catalogo</a></li>
+          <li><a href="./index_cotizacion.html">Cotización</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="header-info">
+          <li>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            Llámanos<br />
+            <a href="tel:312%71%42%360">312 71 42 360</a>
+          </li>
+          <li>
+            <i class="fa fa-envelope" aria-hidden="true"></i>Email<br />
+            <a href="mailto:tornillosbautista@hotmail.com">tornillosbautista@hotmail.com</a>
+          </li>
+          <li>
+            <span>
       
-    
+              <i>Calle 67 N # 9-64 Barrio Bello Horizonte -Popayan Cauca</i>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-sm-6 col-md-3 item">
+        <h1>Siguenos</h1>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/tornillosbautistav">
+              <span class="customicon fab fa-facebook"></span>
+          </li>
+          <li class="ms-3"><a class="text-muted" href="">
+              <span class="customicon fab fa-instagram"> </span>
+          </li>
+          <li class="ms-3"><a class="text-muted"
+              href="https://api.whatsapp.com/send?phone=573127142360&app=facebook&entry_point=page_cta&fbclid=IwAR1CHff_3j60chbRDAKvNfFnV2itk9SVzU7ASvutmM7dVdjgEXaD7moFKA8.com">
+              <span class="customicon fab fa-whatsapp"></span>
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+    <div class="row">
+
+          <p class="text-muted">&copy; 2021 MisionTic C3-G08, Inc</p>
+        </div>
+      </div>
+  </div>
+
+
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script> 
+ 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="./js/productos.js"></script>
+
+
 </body>
+
 </html>
