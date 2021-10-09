@@ -162,3 +162,8 @@ font-size: 150%;
     }
 
 
+.imagen_empresa{
+    float: left;
+    margin-right: 30px;
+    
+}
